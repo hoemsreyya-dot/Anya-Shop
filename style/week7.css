@@ -1,0 +1,193 @@
+/* header */
+.header {
+    display: flex;
+    border: none;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.header .card {
+    border: none;
+    background-color: black;
+    color: white;
+
+}
+
+.header .card h3 {
+    padding: 10px;
+    font-size: 10px;
+}
+
+.header .card h3 i {
+    padding: 5px;
+
+}
+
+
+.container {
+    background-color: white;
+    /* ប្រើសម្រាប់រំកិលអក្សរទៅខាងស្ដាំ */
+    display: flex;
+    /* ប្រើសម្រាប់រំកិល ojectទាំងមកកណ្ដាល */
+    align-items: center;
+    /* ប្រើសម្រាប់ដាក់គម្លាត់logoនិងអក្សរអោយឆ្ងាយពីរគ្នា */
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0px 0px 8px 0px black;
+}
+
+/* meun */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu li a:hover {
+    background-color: orange;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.menu li a i {
+    margin-right: 8px;
+    font-size: 15px;
+    color: gray;
+}
+
+/* banner */
+.banner img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.home {
+    margin-left: 350px;
+    width: 100%;
+
+}
+
+.banner img {
+    width: 92%;
+    height: 100%;
+    margin-left: 50px;
+
+}
+
+.product img {
+    width: 20%;
+    height: 30%;
+    margin-left: 20px;
+
+}
+
+.pro img {
+    width: 20%;
+    height: 30%;
+    display: flex;
+}
+
+/* .container{
+    background-color: white;
+    /* ប្រើសម្រាប់រំកិលអក្សរទៅខាងស្ដាំ */
+display: flex;
+/* ប្រើសម្រាប់រំកិល ojectទាំងមកកណ្ដាល */
+align-items: center;
+/* ប្រើសម្រាប់ដាក់គម្លាត់logoនិងអក្សរអោយឆ្ងាយពីរគ្នា */
+justify-content: space-between;
+width: 100%;
+box-shadow: 0px 0px 8px 0px black;
+}
+
+/* meun */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu li a:hover {
+    background-color: orange;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.menu li a i {
+    margin-right: 8px;
+    font-size: 15px;
+    color: gray;
+}
+
+/* banner */
+.banner img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+*/
+.menu-icon{
+   margin-right: 10px;
+   display: none;
+    
+}
+/* screen for respon */
+@media screen and (max-width: 768px){
+
+.menu{
+    display: none;
+    position: absolute;
+    top: 70px; 
+    left: 0px;
+    width: 94%;
+    background-color: white;
+    z-index: 1;
+    flex-direction: column;
+    padding: 2px;
+}
+.menu-icon{
+    display: block;
+}
+.menu.active{
+    display: flex;
+}
+}
+.four img{
+    width: 30%;
+    height: 40%;
+    background-color:white;
+   color: aliceblue;
+   margin-left: 50px;
+
+}
+
+

@@ -1,0 +1,33 @@
+body{
+
+   background-color: blanchedalmond;
+}
+table{
+    width: 200px;
+}
+td{
+    text-align: center;
+}
+/* style text logo */
+
+.Logo{
+   background-color: black;
+   color: aliceblue;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.desktop{
+    background-color: black;
+     color: aliceblue;
+}
+.de{
+    background-color: black;
+    color: aliceblue;
+}
+.four{
+    background-color: black;
+    color: aliceblue;
+}
+  
